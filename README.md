@@ -4,6 +4,10 @@ This is the source code of Stackoverflow 2019 survey findings
 
 First find the top 5 countries and China as the country of interst.
 
+There is a post for this finding:
+
+https://medium.com/@einsteinder/chinese-have-highest-income-b3aa98dd3e6f
+
 
 ## satisfication for job/career
 Based on these country investigate the satisfication of job/career.
