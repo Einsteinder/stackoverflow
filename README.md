@@ -1,37 +1,33 @@
-# Stackoverflow 2019 survey findings
+### Table of Contents
 
-This is the source code of Stackoverflow 2019 survey findings
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-First find the top 5 countries and China as the country of interst.
+## Installation <a name="installation"></a>
 
-There is a post for this finding:
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
-https://medium.com/@einsteinder/chinese-have-highest-income-b3aa98dd3e6f
+## Project Motivation<a name="motivation"></a>
 
+For this project, I was interestested in using Stack Overflow data from 2019 to better understand:
 
-## satisfication for job/career
-Based on these country investigate the satisfication of job/career.
-
-first drop the `na` values in `CareerSat` and `JobSat`,
-
-Then, convert characters to numeric levels.
-
-Finally show the boxplot for the satisfy level.
+1. How developers satisfy their job/career around world?
+2. How is the income like in different countries?
+3. What is the most popular social media among developers? How about their income?
 
 
-## income in different countries
-convert all currency to USD.
+## File Descriptions <a name="files"></a>
 
-category the income to 4 levels.
+There is a notebook available here to showcase work related to the above questions. Markdown cells were used to assist in walking through the thought process for individual steps.  
 
-find distribution of these levels for the country of interest
 
-## social media ranking
+## Results<a name="results"></a>
 
-investigate the ranking of social media among users of stackoverflow according to the count and composation.
+The main findings of the code can be found at the post available [here](https://medium.com/@einsteinder/chinese-have-highest-income-b3aa98dd3e6f).
 
-### refrence
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Learnd some plot skill from this kernal in kaggle:
-
-https://www.kaggle.com/m2skills/student-web-dev-ml-expert-lets-explore-all
+Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Stack Overflow link available [here](https://insights.stackoverflow.com/survey).  Otherwise, feel free to use the code here as you would like! 
